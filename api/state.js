@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     res.status(200).json({
-        stage: 1,
+        stage: 2,
         action: "message",
-        message: "A connection has been established."
+        message: "The second signal has arrived."
     });
 }
