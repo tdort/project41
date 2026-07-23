@@ -1,7 +1,8 @@
 export default function handler(req, res) {
-    res.status(200).json({
-        stage: 1,
-        action: "message",
-        message: "A connection has been established."
+    res.json({
+        stage: 3,
+        action: "create_file",
+        filename: "C:\\Users\\denis\\Desktop\\clue.txt",
+        content: "The signal is real."
     });
 }
